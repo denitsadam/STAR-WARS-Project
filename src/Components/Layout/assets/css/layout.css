@@ -1,0 +1,95 @@
+@import url('https://fonts.cdnfonts.com/css/star-wars');
+
+.container {
+    font-family: 'Courier New';
+    color: #FFE81F;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.content-main {
+    background-color: #232323;
+    height: calc(100% - 51px);
+    position: relative;
+}
+
+.side-bar-container {
+    background-color: red;
+    width: 250px;
+}
+
+.content-container {
+   width: 100%;
+   height: 100%;
+}
+
+.top-bar {
+    font-family: 'Star Wars', sans-serif;
+    background-color: red;
+    border-bottom: 1px solid #FFE81F;
+}
+
+.top-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.top-bar ul li {
+    float: left;
+}
+
+.top-bar li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.top-bar li a:link {
+    color: #FFE81F;
+}
+
+.top-bar li a:visited {
+    color: #FFE81F;
+}
+
+.top-bar li a:hover {
+    color: #FFE81F;
+    background-color: #111111;
+}
+
+.top-bar li a:active {
+    color: #FFE81F;
+}
+
+.top-bar li a.active {
+    color: #FFE81F;
+    background-color: #111111;
+}
+
+.top-bar svg {
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.background-main {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    opacity: 70%;
+}
+.content {
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    display: flex;
+}

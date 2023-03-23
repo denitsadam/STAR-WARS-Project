@@ -1,0 +1,13 @@
+.home-container {
+    font-family: 'Star Wars', sans-serif;
+    font-size: 50px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.home-container .headers {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,34 @@
+.vehicle-content {
+    flex-grow: 1;
+    padding: 30px;
+}
+
+.vehicle-content h1 {
+    text-align: center;
+}
+
+.vehicle-content .lbl-value-pair label {
+    font-size: 20px;
+}
+
+.vehicle-content div.lbl-value-pair label:first-child {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.vehicle-content .vehicle-metrics {
+    display: flex;
+    margin-top: 15px;
+    gap: 10px;
+    border-top: 1px solid grey;
+    padding-top: 15px;
+}
+
+
+.vehicle-content .vehicle-metrics > div {
+    flex-basis: 100%;
+    padding: 0 10px 10px 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: rgba(1, 1, 1, 0.5);
+}

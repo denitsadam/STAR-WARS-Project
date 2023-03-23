@@ -1,0 +1,17 @@
+.planet-content {
+    flex-grow: 1;
+    padding: 30px;
+}
+
+.planet-content h1 {
+    text-align: center;
+}
+
+.metrics .lbl-value-pair label {
+    font-size: 20px;
+}
+
+.metrics div.lbl-value-pair label:first-child {
+    font-weight: bold;
+    font-size: 26px;
+}

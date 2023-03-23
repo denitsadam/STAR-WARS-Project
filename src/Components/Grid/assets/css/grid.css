@@ -1,0 +1,19 @@
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.grid-row {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    margin-top: 5px;
+    gap: 5px;
+}
+
+.grid-col {
+    flex-basis: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}

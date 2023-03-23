@@ -1,0 +1,80 @@
+.films-container {
+    flex-grow: 1;
+}
+
+.films-container h1,
+.films-container h3 {
+    text-align: center;
+}
+
+.crawl-section {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 800px;
+    color: #feda4a;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 300%;
+    font-weight: 200;
+    letter-spacing: 6px;
+    line-height: 100%;
+    perspective: 200px;
+    text-align: justify;
+    overflow: hidden;
+    max-width: 600px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: rgba(1, 1, 1, 0.7);
+}
+
+.crawl {
+    position: relative;
+    top: 9999px;
+    transform-origin: 50% 100%;
+    animation: crawl 120s linear;
+}
+
+.crawl>.title {
+    font-size: 90%;
+    text-align: center;
+}
+
+.crawl>.title h1 {
+    margin: 0 0 100px;
+    text-transform: uppercase;
+}
+
+@keyframes crawl {
+    0% {
+        top: 0;
+        transform: rotateX(20deg) translateZ(0);
+    }
+
+    100% {
+        top: -6000px;
+        transform: rotateX(25deg) translateZ(-2500px);
+    }
+}
+
+.film-data {
+    display: flex;
+    margin-top: 15px;
+}
+
+.film-data > div {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.films-container .lbl-value-pair label {
+    display: block;
+    font-size: 20px;
+}
+
+.films-container div.lbl-value-pair label:first-child {
+    font-weight: bold;
+    font-size: 26px;
+}
